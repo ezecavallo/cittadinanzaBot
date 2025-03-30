@@ -1,0 +1,12 @@
+[project]
+name = "cittadinanzabot"
+version = "0.1.0"
+description = "A Telegram bot that monitors the Italian Consulate of Cordoba's website for new posts and sends instant notifications."
+authors = ["Ezequiel Cavallo <ezecavallo@gmail.com>"]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.1.0",
+    "python-telegram-bot>=22.0",
+    "requests>=2.32.3",
+]
